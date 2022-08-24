@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Page</title>
+    <Link rel="icon" type="image/x-icon" href="img/image1.png">
+    <link rel="icon" type="image/x-icon" href="/images/image2.png"/>
+    <link rel="stylesheet" href="confirmation.css">
+</head>
+    <body onload="passvalues()">
+        <div class="card"></div>
+        <img src="img/ticket.png" alt="Avatar" style="width:100%">
+        <div class="container">
+        <!-- ===== Confirmation Page Title ===== -->
+        <h1>Success! Booking Confirmed</h1> 
+        <div id="style">
+        <!-- ===== Confirmation Page Contents ===== -->
+        <div class="wrapper">
+            <div class="box box1">
+        Flight Name : <span id="flno"></span><br>
+        Origin City : <span id="origin_city"></span><br>
+        Destination City : <span id="destin_city"></span><br>
+        Departure : <span id="dept_time"></span><br>
+        Arrival : <span id="arrival_time"></span><br>
+        Price : <span id="price"></span><br>
+        First Name : <span id="firstname"></span><br>
+        Last Name : <span id="lastname"></span><br>
+        Age: <span id="age"></span><br>
+        Gender: <span id="gender"></span><br>
+        Email Address: <span id="email"></span><br>
+        Phone Number: <span id="phoneNo"></span><br><br>
+        </div>
+
+        <div class="box box2">
+        First Name : <span id="firstName2"></span><br>
+        Last Name : <span id="lastName2"></span><br>
+        Age: <span id="age2"></span><br>
+        Gender: <span id="gend2"></span><br>
+        </div>
+        
+        <div id="message">
+        <!-- ===== Return to Home Page ===== -->
+        <a id="sol" href="index1.html">Go back to home page</a>
+        </div>
+        <!-- ===== Script source ===== -->
+        <script src="confirmation.js"></script>
+   </body>
+   </html>
