@@ -7,6 +7,11 @@ function passvalues(){
     document.getElementById("gender").innerHTML=localStorage.getItem("gend");
     document.getElementById("email").innerHTML=localStorage.getItem("emailAddress");
     document.getElementById("phoneNo").innerHTML=localStorage.getItem("phoneNo");
+
+    document.getElementById("firstName2").innerHTML=localStorage.getItem("firstName");
+    document.getElementById("lastName2").innerHTML=localStorage.getItem("lastName");
+    document.getElementById("age2").innerHTML=localStorage.getItem("age");
+    document.getElementById("gender2").innerHTML=localStorage.getItem("gend");
 }  
 // ===== Get data from flights.json file ===== //
 var itm=localStorage.getItem("flightid");

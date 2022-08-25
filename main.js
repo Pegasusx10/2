@@ -10,8 +10,6 @@ var firstName2 = document.getElementById("firstName2");
 var lastName2 = document.getElementById("lastName2");
 var age2 = document.getElementById("lage2");
 var submitBtn = document.getElementById("submit-btn");
-// var gender = document.getElementsByName("gender2");
-
 
 var name_regex = /^[a-zA-Z]{0,20}$/;
 var age_regex = /^0?1[89]|0?[2-9][0-9]$/;
@@ -30,7 +28,6 @@ let inputValidator = {
     "emailid": false,
     "phonenumber": false
 };
-
 
 
 firstName.addEventListener('input', validateFirstName)
