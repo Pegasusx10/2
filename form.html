@@ -12,19 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="formstyle.css">    
-    <title>Passenger Details</title>
-    <Link rel="icon" type="image/x-icon" href="img/image1.png">
+    <title>PASSENGER DETAILS</title>
+    <Link rel="icon" type="image/x-icon" href="img/image2.png">
 </head>
 
 <body>
-
-    <!-- <?php if (isset($_POST['form_submitted'])): ?>  
-    <form action="Confirmation.html" method="post"></form>
-    <div class="container1">
-         <div class="details-container"> -->
-
+    <div>
         <form class="form" action="Confirmation.html">
-            <h1>Passenger Details</h1>
+            <h1>PASSENGER DETAILS</h1>
 
             <div class="mb-3">
                 <label for="firstName" class="form-label">First Name</label>
@@ -72,10 +67,10 @@
                     <button type="button" onclick="window.visibleform()" class="btn btn-primary" id="add-passenger-btn">Add Passenger</button>
                 </div>
 
+                <!-- ===== Submit Button ===== -->
                 <div class="submitBtn">
                     <button type="submit" class="btn btn-primary" id="submit-btn" onclick="window.buttonpress()">Submit</button>
                 </div>
-
             </div>
         </form>
 
@@ -118,11 +113,13 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="proceed-booking">
-                <button type="submit" id="submit-btn"onclick="window.passvalues()">Submit</button> -->
                 
-            </div>
-            <br><br> 
+            
+                            <!-- ===== Submit Button ===== -->
+                            <div class="submitBtn">
+                                <button type="submit" class="btn btn-primary" id="submit-btn2" onclick="window.buttonpress()">Submit</button>
+                            </div>
+            <br><br>  
             <div class="back">
                 <a href="index1.html">Back</a>
             </div>
@@ -130,10 +127,6 @@
             
         </form>
     </div>
-
-
-    <!-- <script src="main.js"></script> -->
-    <!-- <script src="booking.js"></script> -->
-    <script src="main.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>
