@@ -8,18 +8,18 @@ function passvalues(){
     document.getElementById("email").innerHTML=localStorage.getItem("emailAddress");
     document.getElementById("phoneNo").innerHTML=localStorage.getItem("phoneNo");
 
-    document.getElementById("firstName2").innerHTML=localStorage.getItem("firstName");
-    document.getElementById("lastName2").innerHTML=localStorage.getItem("lastName");
-    document.getElementById("age2").innerHTML=localStorage.getItem("age");
-    document.getElementById("gender2").innerHTML=localStorage.getItem("gend");
+    document.getElementById("firstName2").innerHTML=localStorage.getItem("firstName2");
+    document.getElementById("lastName2").innerHTML=localStorage.getItem("lastName2");
+    document.getElementById("age2").innerHTML=localStorage.getItem("age2");
+    document.getElementById("gender2").innerHTML=localStorage.getItem("gend2");
 }  
 // ===== Get data from flights.json file ===== //
 var itm=localStorage.getItem("flightid");
 let flight_details = fetch("flights.json");
-flight_details.then(response => response.json()).then(data=>paul(data));
+flight_details.then(response => response.json()).then(data=>flightfetch(data));
     
     
-    function paul(data)
+    function flightfetch(data)
     { 
     for(let i = 0; i < data.length; i++)
     {
